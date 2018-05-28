@@ -1,4 +1,4 @@
-package com.controller;
+package com.pdf.app.controller;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -30,7 +30,7 @@ import com.itextpdf.text.pdf.PdfReader;
 import com.itextpdf.text.pdf.PdfStamper;
 
 @RestController
-public class PdfPractice {
+public class CustomerSupportController {
 	
 	@RequestMapping(value="/pdfCheck")
 	public void check() throws IOException {

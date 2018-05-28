@@ -1,12 +1,12 @@
-package com.controller;
+package com.pdf.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Project {
+public class CustomerSupportAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Project.class, args);
+		SpringApplication.run(CustomerSupportAppApplication.class, args);
 	}
 }
